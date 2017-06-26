@@ -17,11 +17,12 @@ public class SantosLogger {
      * We create a log here so Santos Logger can log itself
      * if needed.
      */
-    private final Log l = new Log("logger_log");
+    private static Log l;
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        l = new Log("logger_log");
         /**
          * This is empty because we only need to create instantaneous classes
          * from this jar.
