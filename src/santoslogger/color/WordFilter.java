@@ -12,14 +12,11 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import javax.swing.JEditorPane;
 import javax.swing.JTextPane;
 import javax.swing.text.BadLocationException;
-import javax.swing.text.Document;
 import javax.swing.text.MutableAttributeSet;
 import javax.swing.text.Style;
 import javax.swing.text.StyleConstants;
-import javax.swing.text.StyleContext;
 import javax.swing.text.StyledDocument;
 
 /**
